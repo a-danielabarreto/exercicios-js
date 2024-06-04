@@ -4,6 +4,8 @@
 
 const numeros = [1, 2, 100, 200, 3, 4];
 
-const maiorNumero = Math.max(...numeros);
+function maiorNumero(parNumeros) {
+    return Math.max(...parNumeros);
+}
 
-console.log(`O maior número é: ${maiorNumero}`);
+console.log(`O maior número é: ${maiorNumero(numeros)}`);
